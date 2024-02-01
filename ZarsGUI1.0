@@ -1,0 +1,223 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Zar's GUI", "Synapse")
+    -- MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+
+--BUTTON 1
+MainSection:NewButton("Tp to player", "Teleports you to a player", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Vt1VggUB",true))()
+end)
+
+--BUTTON 2
+MainSection:NewButton("Infjump", "Jump an inf amount of times", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/HQsQysa8", true))()
+end)
+
+--BUTTON 3
+MainSection:NewButton("Spectate", ".", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/z7n7VsjU"))()
+end)
+
+--BUTTON 4
+MainSection:NewButton("Full bright", "removes the darkness from game", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/259aRFVb"))()
+end)
+
+--BUTTON 5
+MainSection:NewButton("InfYeild", "Why not add this", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+--BUTTON 5
+MainSection:NewButton("Nameless Admin", "Why not add this Too", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))(); 
+end)
+
+--BUTTON 5
+MainSection:NewButton("FE KEYBOARD SCRIPT FOR MOBILE", "Use this if a script requires a keyboard", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+--BUTTON 5
+MainSection:NewButton("Walk fling Most op one I have", "Send them foes flying with your new fling shoes", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_5wpM7bBcOPspmX7lQ3m75SrYNWqxZ858ai3tJdEAId6jSI05IOUB224FQ0VSAswH.lua.txt'),true))()
+end)
+
+
+--BUTTON 5
+MainSection:NewButton("C00lgui Reawakened", "Eat my shirt!", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/bV90GJGm'))()
+end)
+
+--BUTTON 5
+MainSection:NewButton("SWORD REACH", "Hit people from miles away", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/Jsghb8bt'))()
+end)
+
+--BUTTON 5
+MainSection:NewButton("SHIFTLOCK MOBILE VERSION", "Get ShiftLock on mobile", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/MxxbzWR2",true))()
+end)
+
+--BUTTON 5
+MainSection:NewButton("ChatSpy", "See Private Chats!", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/HLqFXf1Q",true))()
+end)
+
+--BUTTON 5
+MainSection:NewButton("Rtx/Shaders", "Get the 2055 version of roblox", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/Bkf0BJb3'))()
+end)
+
+--BUTTON 5
+MainSection:NewButton("Fps Booster", "Makes your game run smoother", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Unknownproootest/UniversalfpsboostXunlocker/main/FpsBoost'),true))()
+end)
+
+--BUTTON 5
+MainSection:NewButton("TP TOOL", "TeleportClick", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ruinins/scripts-/main/Tp%20Tool.lua"))()
+end)
+
+--BUTTON 5
+MainSection:NewButton("Admin Like Panel", "Get Admin stuff idk", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BaconBABA/Admin-Panel/main/README.md", true))()
+end)
+
+
+    --LOCAL PLAYER
+    local Player = Window:NewTab("Player")
+    local PlayerSection = Player:NewSection("Player")
+
+    PlayerSection:NewSlider("Walkspeed", "SPEED!!", 500, 16, function(s)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    end)
+
+    PlayerSection:NewSlider("Jumppower", "JUMP HIGH!!", 350, 50, function(s)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+    end)
+
+    PlayerSection:NewButton("Reset WS/JP", "Resets to all defaults", function()
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+    end)
+
+    --Other
+    local Other = Window:NewTab("Other")
+    local OtherSection = Other:NewSection("Other")
+
+    OtherSection:NewButton("Blox fruits", ".", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+    end)
+
+    OtherSection:NewButton("Ragdoll engine", ".", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+    end)
+
+    OtherSection:NewButton("Item Asylum", ".", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/travislmao/pub-scripts/main/abagui", true))()
+    end)
+
+    OtherSection:NewButton("Girls hangout (spam click it once obby finishes)", ".", function()
+        while wait() do
+    local part = Workspace.ObbyTripAssets.CashGiver
+    part.CFrame = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame
+end
+    end)
+
+    OtherSection:NewButton("Life In Paradise lag the server", ".", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/wUQ5vBdb",true))()
+    end)
+
+    OtherSection:NewButton("Adopt me", ".", function()
+        loadstring(game:HttpGet('https://gitfront.io/r/ReQiuYTPL/wFUydaK74uGx/hub/raw/ReQiuYTPLHub.lua'))()
+    end)
+
+    OtherSection:NewButton("Murder Mystery 2", ".", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/KM2ik7xB",true))()
+    end)
+
+    OtherSection:NewButton("Fruits Battleground", ".", function()
+        loadstring(game:HttpGet("https://jumblescripts.com/FruitBattle.lua"))()
+    end)
+
+    OtherSection:NewButton("King Legacy", ".", function()
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+    end)
+
+    OtherSection:NewButton("Slap Battles", ".", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/Slap%20Battles"))()
+    end)
+
+    OtherSection:NewButton("Shark bite 1", ".", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/YYVLbzVg", true))()
+    end)
+
+    OtherSection:NewButton("Shark bite 2", ".", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+    end)
+
+    OtherSection:NewButton("BrookHaven", ".", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+    end)
+
+    OtherSection:NewButton("Pls Donate", ".", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/stuffman0001/CanHub/main/Code"))()
+    end)
+
+    OtherSection:NewButton("Seas Battlegrounds", ".", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/dpk1yLS8",true))()
+    end)
+
+    OtherSection:NewButton("Muscle Legends", ".", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/StupidProAArsenal/main/main/Musclas%20Legenos.lua'))()
+    end)
+
+    OtherSection:NewButton("Legends Of Speed", ".", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/yFXXHL2g",true))()
+    end)
+
+    OtherSection:NewButton("Ninja legends", ".", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Zepsyy2/asd/main/Ninja%20Legends.lua",true))()
+    end)
+
+    OtherSection:NewButton("Ninja legends 2", ".", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/why-png/scriptstuffz/master/ninjaleg2", true))()
+    end)
+
+    OtherSection:NewButton("Ninja Tycoon", ".", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/3caDghrg"))();
+    end)
+
+    OtherSection:NewButton("Dragon Ball Rage", ".", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/sannin9000/scripts/main/dbrage.lua"))()
+    end)
+
+    OtherSection:NewButton("Prison Life", ".", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/wMagw9Cn", true))()
+    end)
+
+    OtherSection:NewButton("Natural Disaster", ".", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Bac0nh1ck/Scripts/main/NDS_A%5EX'))()
+    end)
+
+    OtherSection:NewButton("Arsenal", ".", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Infinity2346/Tect-Menu/main/Arsenalscript.txt"))()
+    end)
+
+    OtherSection:NewButton("Zombie Attack", ".", function()
+        loadstring(game:HttpGet('https://ghost-storage.7m.pl/scripts/ghosthublauncher.lua'))()
+    end)
+
+    OtherSection:NewButton("Zombie Uprising", ".", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/0N1y7RyM"))()
+    end)
+
+    OtherSection:NewButton("Zombie Strike", ".", function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/ar3TBirT",true))()
+    end)
+
+    OtherSection:NewButton("The Chosen One", ".", function()
+        loadstring(game:HttpGet("https://scriptblox.com/raw/The-Chosen-One-laziest-V2-7696"))()
+    end)
